@@ -1,0 +1,297 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.menu-item{
+right: 200px;
+position: fixed;
+}
+
+.menu-item input {
+padding: 5px;
+border: none;
+border-radius: 5px;
+}
+
+.menu-item ul {
+list-style-type: none;
+padding: 0;
+display: flex;
+
+
+}
+
+.menu-item .dropdown {
+position: relative;
+}
+
+.menu-item .dropdown-content {
+display: none;
+position: absolute;
+background-color: #f5f5f5; /* Light Ash Color */
+min-width: 150px;
+z-index: 1;
+}
+
+
+.menu-item a {
+text-decoration: none;
+color: #333; /* Text Color */
+font-weight: bold;
+}
+
+
+.search-bar {
+left: 200px;
+position: fixed;
+height: 30px;
+display: flex;
+cursor: pointer;
+padding: 10px 20px;
+background: #f5f5f5;
+border-radius: 30px;
+align-items: center;
+margin-right: 280px;
+}
+
+.search-bar:hover input{
+width: 400px;
+}
+
+
+.search-bar input{
+width: 0;
+outline: none;
+border: none;
+font-weight: 500;
+transition: 0.8s;
+background: transparent;
+}
+
+.search-bar a .fas{
+color: rgb(0, 0, 0);
+font-size: 18px;
+}
+
+
+.header
+{   
+width: 100%;
+height: 60px;
+align-items: center;
+display: flex;
+justify-content: space-between;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+background-color: white;
+z-index:1;
+}
+
+.logo1{
+width: 180px;
+}
+
+.menu-item{
+display: flex;
+}
+
+
+
+.nav li  > a{
+display: inline-block;
+color: rgb(34, 38, 71);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.search-bar ::placeholder{
+font-weight:600;
+}
+
+.nav :hover{
+border-radius: 30px;
+background-color: rgb(241, 241, 241);
+transition: 0.3s;
+}
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+background-color: rgb(255, 255, 255);
+transition: ease-in-out 0.3s;
+
+
+}
+
+.user-buttons a{
+
+text-decoration: none;
+color: rgb(34, 38, 71);
+font-weight: bold;
+font-size: medium;
+float: right;
+padding: 10px;
+
+}
+
+.user-buttons button{
+border: none;
+background-color: white;
+
+}
+
+.user-buttons :hover{
+background-color: rgb(241, 241, 241);
+border-radius: 30px;
+}
+
+.user-buttons .signin{
+margin-right: 20px;
+}
+
+/*footer css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html{
+height: 100%;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+footer{
+width: 100%;
+right: 0;
+left: 0;
+bottom: 0;
+margin-top: auto;
+text-decoration: none;
+}
+
+.container{ 
+width: 100%;
+margin:auto;
+margin:0;
+padding:0;
+box-sizing: border-box;
+background-color: #1E0A3C;
+padding: 70px ;
+text-decoration: none; 
+position:relative;
+align-items: center;
+}
+
+.container li {
+list-style-type: none;
+
+}
+.row{
+display: flex;
+flex-wrap: nowrap;
+}
+.footer ul{
+list-style: none;
+}
+
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+.footer-col h4{
+font-size: 18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left:0;
+bottom: -10px;
+background-color: #d05716;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 5px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbbbb;
+display: block;
+transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+color: #ffffff;
+padding-left: 8px;
+}
+.footer-col .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255,255,255,0.2);
+margin:0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+color: #1E0A3C;
+background-color: #ffffff;
+}
+
+.img1{
+width: 100%;
+margin-top: 49.899px;
+}
+.copyrightText{
+font-size: 10px;
+text-align: center;
+position:relative;
+top: 57px;
+color: white;
+}
+
+
+
+
+
+
